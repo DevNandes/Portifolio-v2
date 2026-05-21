@@ -1,0 +1,37 @@
+{
+  "name": "portfolio-raphael",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write \"**/*.{ts,tsx,css,md,mjs,json}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,css,md,mjs,json}\"",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "framer-motion": "^11.11.17",
+    "lucide-react": "^0.460.0",
+    "groq-sdk": "^0.9.0",
+    "three": "^0.160.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "@types/three": "^0.160.0",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.35",
+    "eslint-config-prettier": "^9.1.0",
+    "postcss": "^8.5.15",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.2"
+  }
+}

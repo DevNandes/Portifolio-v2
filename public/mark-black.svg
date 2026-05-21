@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 80" width="140" height="80">
+  <g fill="none" stroke="#0a0a0a" stroke-width="5.5" stroke-linejoin="miter" stroke-linecap="butt">
+    <!-- R: stem + top + bowl + closure as one continuous path -->
+    <path d="M 12 68 L 12 12 L 44 12 Q 60 12 60 28 Q 60 44 44 44 L 12 44"/>
+    <!-- R leg, starting cleanly at bowl corner -->
+    <path d="M 44 44 L 62 68"/>
+    <!-- F: stem + top as one continuous path -->
+    <path d="M 82 68 L 82 12 L 122 12"/>
+    <!-- F middle bar -->
+    <path d="M 82 40 L 114 40"/>
+  </g>
+  <circle cx="132" cy="65" r="4.5" fill="#3b82f6"/>
+</svg>
